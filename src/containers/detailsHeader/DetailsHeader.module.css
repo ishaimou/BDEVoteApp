@@ -1,0 +1,58 @@
+.container {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.leftButton {
+  font-size: 2rem;
+  background: none;
+  color: #c4c4c4;
+  border: none;
+  cursor: pointer;
+}
+
+.goupName {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: -0%;
+}
+
+.voteButton {
+  background: #00909e;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.voteButton:hover {
+  background: #05b5c5;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.downloadButton {
+  background: #c9d1d3;
+  color: #00909e;
+}
+.downloadButton:hover {
+  background: #00909e;
+  color: #c9d1d3;
+}
+
+.rightButtons {
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  border: none;
+  border-radius: 0;
+  /* padding: 0.6rem 2rem; */
+}

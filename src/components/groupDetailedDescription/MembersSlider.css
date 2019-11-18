@@ -1,0 +1,43 @@
+#members {
+  position: relative;
+}
+
+#left {
+  width: 30px;
+  height: 30px;
+  background: #2b416e;
+  position: absolute;
+  left: -80px;
+  top: 40%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  text-align: center;
+}
+#left:hover,
+#right:hover {
+  cursor: pointer;
+}
+#members-carousel {
+  width: 100%;
+}
+#left-icon {
+  font-size: 16px;
+  color: #94a9d4;
+  padding-top: 7px;
+}
+#right {
+  width: 30px;
+  height: 30px;
+  background: #2b416e;
+  position: absolute;
+  right: 15px;
+  top: 40%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  text-align: center;
+}
+#right-icon {
+  font-size: 16px;
+  color: #94a9d4;
+  padding-top: 7px;
+}
